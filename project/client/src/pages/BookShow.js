@@ -7,7 +7,7 @@ import { message, Card, Row, Col, Button, Tooltip } from "antd";
 import moment from "moment";
 import { bookShow, makePayment } from "../calls/bookings";
 import StripeCheckout from "react-stripe-checkout";
-
+import './BookShow.css';
 const BookShow = () => {
   const { user } = useSelector((state) => state.user);
   const dispatch = useDispatch();
